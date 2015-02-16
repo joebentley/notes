@@ -14,7 +14,7 @@ argParser = ArgsSpec
   `andBy` optFlag 10 "num" `Descr` "Number of records to be shown"
 
 filepath :: IO FilePath
-filepath = getHomeDirectory >>= \x -> return (x ++ "/.todo")
+filepath = getHomeDirectory >>= \x -> return (x ++ "/.notes")
 
 run :: ArgsSpec -> IO ()
 run args
