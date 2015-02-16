@@ -1,0 +1,7 @@
+*.hi
+*.o
+
+notes
+
+.Trash
+.DS_Store
